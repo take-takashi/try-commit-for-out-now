@@ -35,3 +35,4 @@ try-commit-for-out-now % git push --force-with-lease
 - 複数回WIPしたらどうなる？
 - 最新のコミットのみ署名された。
 - すべてのコミットを署名するには？
+- 結局、パスフレーズ入力で実行できるGPGキーを発行して、外出先ではそのキーでcommitを署名することにした。
