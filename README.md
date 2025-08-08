@@ -29,3 +29,5 @@ try-commit-for-out-now % git commit --no-gpg-sign --allow-empty -m "Test WIP com
 try-commit-for-out-now % git commit --amend -S --no-edit
 try-commit-for-out-now % git push --force-with-lease
 ```
+
+## お試し
