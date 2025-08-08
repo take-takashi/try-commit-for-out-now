@@ -1,1 +1,11 @@
 
+[tasks.ssh-git-commit]
+description = "SSH経由でコミットする際に署名なしでコミットする"
+usage = '''
+arg "message" help="コミットメッセージ"
+'''
+run = "git commit --no-gpg-sign --allow-empty -m ${usage_message}"
+
+[tasks.ssh-git-fixsign]
+description = "SSH経由でコミットしたものに署名を行う"
+run = "git commit --amend -S --no-edit"
