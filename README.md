@@ -31,3 +31,5 @@ try-commit-for-out-now % git push --force-with-lease
 ```
 
 ## お試し
+
+- 複数回WIPしたらどうなる？
