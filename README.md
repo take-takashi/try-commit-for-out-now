@@ -34,3 +34,4 @@ try-commit-for-out-now % git push --force-with-lease
 
 - 複数回WIPしたらどうなる？
 - 最新のコミットのみ署名された。
+- すべてのコミットを署名するには？
