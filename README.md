@@ -16,6 +16,8 @@
 
 ### 外出先（1passwordの署名を問われないようにする）
 
+この時、`push`はせずに`commit`のみ実行するとする。
+
 ```bash
 try-commit-for-out-now % git add .
 try-commit-for-out-now % git commit --no-gpg-sign --allow-empty -m "Test WIP commit"
